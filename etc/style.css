@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 5rem;
   color: #94BDEF;
 }
@@ -101,14 +101,16 @@ section {
 
 #imgnfohld {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
-#imgnfohld span {
+#imgnfohld p {
   display: block;
   width: 100%;
-  margin: 50px;
+  margin: 10px;
+  text-align: center;
 }
 
 .selfie {
