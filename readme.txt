@@ -1,3 +1,7 @@
+layout for my website as i work on it
+
+here is stuff i used
+
 http://bestanimations.com/Site/Construction/Construction.html
 
 https://www.htmlcommentbox.com/
