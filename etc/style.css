@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+/* Coolors Exported Palette - coolors.co/c5d2e2-cce2fc-a7ccf9-80b6f7-94bdef */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #111111;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-image: url("http://liftedpixel.github.io/new/etc/bg.png");
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  text-shadow: 1px 1px 1px #c5d2e2;
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 7rem;
+  color: #80B6F7;
+  text-shadow: 2px 2px 2px #80b6f7;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #94BDEF;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #A7CCF9
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #C5D2E2;
+}
+
+a {
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 3px solid #80b6f7;
+  padding: 0 3px;
+}
+
+a:hover {
+  background-color: #80b6f7;
+}
+
+a.normalink {
+  border-bottom: 1px solid #c5d2e2;
+}
+
+a.normalink:hover {
+  background-color: transparent;
+  border-bottom: 1px solid #80b6f7;
+}
+
+header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(204,226,252,0.5);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+#pixel {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+#pixel2 {
+  display: none;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: rgba(204,226,252,0.5);
+  border-radius: 0.5rem;
+}
+
+#imgnfohld {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#imgnfohld span {
+  display: block;
+  width: 100%;
+  margin: 50px;
+}
+
+.selfie {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 999px;
+  border: 5px solid #80B6F7;
+}
+
+.inweb {
+  display: inline-block;
+}
+
+.thelink {
+  display: inline-block;
+  margin: 20px;
+}
+
+.webp {
+  margin: 20px;
+}
+
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(204,226,252,0.5);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.top {
+  display: block;
+  float: right;
+}

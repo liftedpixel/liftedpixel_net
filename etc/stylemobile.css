@@ -1,0 +1,39 @@
+@media only screen and (max-width: 900px) {
+  body {
+  }
+
+  #pixel {
+    display: none;
+  }
+
+  #pixel2 {
+    display: block;
+    margin: 0 auto;
+  }
+
+  header {
+    padding-top: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    line-height: 75px;
+    margin: 0 auto;
+    border: 1px solid #08b6f7;
+    overflow-wrap: break-word;
+  }
+
+  nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #imgnfohld {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #imgnfohld * {
+  }
+}
