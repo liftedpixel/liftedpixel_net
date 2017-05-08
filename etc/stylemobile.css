@@ -9,6 +9,15 @@
   #pixel2 {
     display: block;
     margin: 0 auto;
+    height: auto;
+    width: 100%;
+  }
+
+  #pixel2 img {
+    display: inline;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightyellow;
   }
 
   header {
@@ -19,7 +28,7 @@
     text-align: center;
     line-height: 75px;
     margin: 0 auto;
-    border: 1px solid #08b6f7;
+    border: 1px dashed #08b6f7;
     overflow-wrap: break-word;
   }
 
