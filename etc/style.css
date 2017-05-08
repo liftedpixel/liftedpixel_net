@@ -8,7 +8,6 @@
 }
 
 html {
-  background-color: #111111;
   width: 100%;
   height: auto;
   font-size: 15px;
@@ -17,7 +16,8 @@ html {
 body {
   width: 100%;
   height: auto;
-  background-image: url("http://liftedpixel.github.io/new/etc/bg.png");
+  background-color: #dddddd;
+  background-image: url("../img/geometry2.png");
   font-family: "Open Sans", sans-serif;
   color: #111111;
   text-shadow: 1px 1px 1px #c5d2e2;
