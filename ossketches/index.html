@@ -1,0 +1,100 @@
+<html>
+<head>
+  <title>OpenSim Sketches</title>
+  <style type="text/css">
+  body {
+    background-image: url("bg.png");
+    background-size: cover;
+  }
+  #holdit {
+    width: 500px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #holdit {
+    opacity: 0.05;
+    transition: opacity 0.5s ease;
+  }
+  #holdit:hover {
+    opacity: 1;
+  }
+  #holdit img {
+    height: 200px;
+    width: auto;
+  }
+  </style>
+</head>
+<body>
+  <div id="holdit">
+    <img src="./toomanyprims/toomany.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany2.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany3.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany4.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany5.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany6.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany7.png" onclick="change(this)" />
+    <img src="./toomanyprims/toomany8.gif" onclick="change(this)" />
+    <img src="./toomanyprims/crashed.png" onclick="change(this)" />
+    <img src="./feelings/feelings1.png" onclick="change(this)" />
+    <img src="./feelings/feelings2.png" onclick="change(this)" />
+    <img src="./hill/one.png" onclick="change(this)" />
+    <img src="./hill/two.png" onclick="change(this)" />
+    <img src="./hill/three.png" onclick="change(this)" />
+    <img src="./hill/four.png" onclick="change(this)" />
+    <img src="./hill/five.png" onclick="change(this)" />
+    <img src="./hill/six.png" onclick="change(this)" />
+    <img src="./hill/seven.png" onclick="change(this)" />
+    <img src="./hill/eight.png" onclick="change(this)" />
+    <img src="./lonely/lonely.png" onclick="change(this)" />
+    <img src="./mess/one.png" onclick="change(this)" />
+    <img src="./mess/two.png" onclick="change(this)" />
+    <img src="./oneshot/one.gif" onclick="change(this)" />
+    <img src="./oneshot/two.png" onclick="change(this)" />
+    <img src="./oneshot/three.png" onclick="change(this)" />
+    <img src="./oneshot/four.png" onclick="change(this)" />
+    <img src="./oneshot/five.png" onclick="change(this)" />
+    <img src="./oneshot/six.png" onclick="change(this)" />
+    <img src="./oneshot/seven.png" onclick="change(this)" />
+    <img src="./skylaptop/one.png" onclick="change(this)" />
+    <img src="./skylaptop/two.gif" onclick="change(this)" />
+    <img src="./skylaptop/three.gif" onclick="change(this)" />
+    <img src="./stairs/one.gif" onclick="change(this)" />
+    <img src="./stairs/two.gif" onclick="change(this)" />
+    <img src="./stairs/three.gif" onclick="change(this)" />
+    <img src="./stairs/four.png" onclick="change(this)" />
+    <img src="./stairs/five.png" onclick="change(this)" />
+    <img src="./statictest/one.png" onclick="change(this)" />
+    <img src="./statictest/two.png" onclick="change(this)" />
+    <img src="./statictest/three.png" onclick="change(this)" />
+    <img src="./statictest/four.png" onclick="change(this)" />
+    <img src="./statictest/five.png" onclick="change(this)" />
+    <img src="./statictest/six.png" onclick="change(this)" />
+    <img src="./statictest/seven.png" onclick="change(this)" />
+    <img src="./statictest/eight.png" onclick="change(this)" />
+    <img src="./statictest/nine.png" onclick="change(this)" />
+    <img src="./statictest/ten.png" onclick="change(this)" />
+    <img src="./statictest/eleven.png" onclick="change(this)" />
+    <img src="./statictest/twelve.png" onclick="change(this)" />
+    <img src="./statictest/thirteen.png" onclick="change(this)" />
+    <img src="./statictest/fourteen.png" onclick="change(this)" />
+    <img src="./statictest/fifteen.png" onclick="change(this)" />
+    <img src="./tube/one.png" onclick="change(this)" />
+    <img src="./tube/two.png" onclick="change(this)" />
+    <img src="./tube/three.png" onclick="change(this)" />
+    <img src="./what/one.gif" onclick="change(this)" />
+    <img src="./what/two.gif" onclick="change(this)" />
+    <img src="./words/one.png" onclick="change(this)" />
+    <img src="./words/two.png" onclick="change(this)" />
+    <img src="./words/three.png" onclick="change(this)" />
+  </div>
+</body>
+<script>
+  function change(img) {
+    var x = img.getAttribute('src');
+    document.body.style.backgroundImage = "url('" + x + "')";
+  }
+</script>
+</html>
